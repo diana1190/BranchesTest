@@ -20,7 +20,12 @@ namespace BranchesTest
             }
             else
             {
-                Console.WriteLine("¡No puedes con el reto!");
+                Console.WriteLine("¿Por qué no estudias sistemas? :( [1] muy difícil [2] no me gusta programar");
+                int respuesta = Convert.ToInt16(Console.ReadLine());
+                if (respuesta == 1 || respuesta == 2)
+                {
+                    Console.WriteLine("¡No puedes con el reto!");
+                }                
             }
             Console.ReadKey(); // Pausa final
         }

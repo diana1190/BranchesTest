@@ -23,6 +23,7 @@ namespace BranchesTest
                 if (universidad == "URL")
                 {
                     Console.WriteLine("¡Y en la mejor universidad! :D");
+                    Console.WriteLine("¡Felicidades!");
                 }
             }
             else

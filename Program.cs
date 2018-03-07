@@ -10,6 +10,7 @@ namespace BranchesTest
     {
         static void Main(string[] args)
         {
+            // Código de la branch URL
             Console.WriteLine("Escriba su nombre");
             string nombre = Console.ReadLine();
             Console.WriteLine("Escriba su carrera");
@@ -17,6 +18,12 @@ namespace BranchesTest
             if (carrera == "sistemas")
             {
                 Console.WriteLine("Estás en la mejor carrera del mundo");
+                Console.WriteLine("¿Dónde estudias?");
+                string universidad = Console.ReadLine();
+                if (universidad == "URL")
+                {
+                    Console.WriteLine("¡Y en la mejor universidad! :D");
+                }
             }
             else
             {

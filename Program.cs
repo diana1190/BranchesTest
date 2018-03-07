@@ -22,6 +22,7 @@ namespace BranchesTest
             {
                 Console.WriteLine("¡No puedes con el reto!");
             }
+            Console.ReadKey(); // Pausa final
         }
     }
 }
